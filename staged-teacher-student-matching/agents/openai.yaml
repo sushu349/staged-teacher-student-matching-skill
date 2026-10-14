@@ -1,4 +1,0 @@
-interface:
-  display_name: "Staged Teacher Student Matching"
-  short_description: "Clean and match teachers and students in two stages"
-  default_prompt: "Use $staged-teacher-student-matching to clean the project workbooks and output the staged teacher-student matching tables."
