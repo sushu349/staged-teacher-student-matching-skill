@@ -28,6 +28,7 @@ Read [references/output-contract.md](references/output-contract.md) before creat
 - Continue-teaching priority requires the same student, the same teacher, and the same historical subject, with both willingness fields equal to `是`.
 - Stage 1 gives strict continuation matching absolute priority. If one student has two valid continuation triples, assign both in Stage 1 when the hard constraints allow; do not stop after the student's first continuation match.
 - Teacher capacity counts unique students, not subjects.
+- A teacher must use one exact student grade and one subject for the entire scheduling cycle. If the teacher has two students, both must be in that same grade and subject. Do not assign a teacher across grades or across subjects.
 - By the end of Stage 2, assign at most two students to each teacher even when the teacher's declared maximum is three. Output the unused part of the declared maximum as manual adjustment capacity.
 - Do not add historical teachers or historical students that are absent from the required input contract.
 - Do not perform manual reassignment. Generate the matching, shortage, and remaining-capacity tables only.

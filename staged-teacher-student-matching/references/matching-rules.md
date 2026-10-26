@@ -30,6 +30,7 @@ Every assignment must satisfy all of these constraints:
 5. A teacher cannot be assigned to the same student twice.
 6. Different subjects of the same student must use different teachers.
 7. Each student-subject need is assigned at most once.
+8. A teacher may use only one exact grade and one subject across all assignments in the scheduling cycle. If assigned two students, both must share that grade and subject.
 
 ## Strict Continuation Match
 
